@@ -1,0 +1,243 @@
+<!-- Made by divya manas
+in this website i have mainly focussed on the home page
+i have styled the fonts using google font
+i have used bootstrap for login page ,navigation bar,cards ,carousel,and designing a few types of buttons
+This project dosent include javascript as because i was not able to get proficient in javascript in the provided <time> thats why i decided to keep the project javascript Free
+</time>
+I have used anchors in every card of home page  as well as in the carousel linking it to some known website and making my site more responsive
+At many placed i have Used 'vw' instead of rem,em,px so that i can make my fonts responsive to mobile phones as well because it is relative
+The home page is responsive in all three - login page ,home page and the gold membership page  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comforter&family=Festive&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap" rel="stylesheet">
+<link rel="icon" href="favicon.ico">
+  <title>Ambrosia</title>
+
+</head>
+
+<body>
+  <!-- This nav bar is taken from Bootstrap -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <a class="navbar-brand" href="#">AMBROSIA</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Gold-member\indexx.html">Gold member</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#menucard">Menu</a>
+          <a class="dropdown-item" href="#godfood">Trending</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#last-part">Divya Manas Shahi</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="login\login.html">login/signup</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Try 'South Indian'!!!" aria-label="Search">
+      <a href="#south"><button  href="#"class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button></a>
+    </form>
+  </div>
+</nav>
+<blockquote class="blockquote text-center">
+  <p class="mb-0">AMBROSIA</p>
+  <footer class="blockquote-footer">God's Food <cite title="Source Title">on your plates</cite></footer>
+</blockquote>
+<!-- I have used this faded sub heading for extra creativity -->
+
+
+
+<!-- the nest section is for trending foods  note- every image is anchored to a website -->
+
+  <div class="god-food" id="godfood">
+    <h1 class="subhead">Hungry..!! huhh..?</h1>
+    <h1 class="subhead">We are here for You!</h1>
+  </div>
+  <div class="trending">
+    <h2>Here is what's Trending on the menu</h2>
+
+    <!-- This carousel is used with captions it can be found on bootstrap
+  note - the carousel moves automatically to next slide unless u are hovering over it -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="3000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+        <a href="https://www.pizzahut.co.in/?utm_source=google&utm_medium=cpc&utm_campaign=iP_Devyani_Search_PR_Brand_Exact&utm_content=Brand&gclid=Cj0KCQiA0p2QBhDvARIsAACSOONhY4K-BzTGZcNaEAyUoqobrRjig6589jBFGqdDl1tzP6fQSuMsvCEaAvj8EALw_wcB"> <img class="d-block w-100" src="https://cdn.stocksnap.io/img-thumbs/960w/pizza-wine_IJESKJTYB6.jpg" alt="First slide"></a>
+          <div class="carousel-caption d-none d-md-block">
+        <h5 class="trending-name">Pizza</h5>
+        </div>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.noodles.com/"><img class="d-block w-100" src="https://cdn.stocksnap.io/img-thumbs/960w/ramen-noodles_KKMQPWQK6H.jpg" alt="Second slide"></a>
+          <div class="carousel-caption d-none d-md-block d-sm-block">
+          <h5 class="trending-name">Noodles</h5>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <a href="https://www.swiggy.com/restaurants/meloddy-paneer-tikka-and-fast-food-lodha-school-central-pali-pali-159522"><img class="d-block w-100" src="https://media.istockphoto.com/photos/grilled-paneer-tikka-cheese-kebab-picture-id942176766?k=20&m=942176766&s=612x612&w=0&h=Vs73SuL3GoNkORMl-w7h0mshRr4tHaXBujDedFwbVFI=" alt="Third slide"></a>
+          <div class="carousel-caption d-none d-md-block">
+        <h5 class="trending-name">Paneer-Tikka</h5>
+        </div>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.freshmenu.com/indian--vegetarian--mains--paneer--pulao--nimpp431/product/702"><img class="d-block w-100" src="https://media.istockphoto.com/photos/chicken-curry-creamy-chicken-butter-picture-id1227594550?b=1&k=20&m=1227594550&s=170667a&w=0&h=qVrlBY1xr5orPL7YwnPzRLtQ7WrbeybRynBGufIa3a8=" alt="Second slide"></a>
+          <div class="carousel-caption d-none d-md-block">
+          <h5 class="trending-name">Butter-Paneer</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+        <a href="https://www.indiamart.com/proddetail/masala-dosa-19459195712.html"> <img class="d-block w-100" src="https://media.istockphoto.com/photos/plain-dosa-dish-picture-id1318600400?b=1&k=20&m=1318600400&s=170667a&w=0&h=aKwtxtg1IdudCXRHrC-CgxxQA19qrnEXN2oXdixZCko=" alt="Second slide"></a>
+          <div class="carousel-caption d-none d-md-block">
+          <h5 class="trending-name">Dosa</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.swiggy.com/restaurants/laal-maas-and-company-new-bjs-colony-jodhpur-313388"><img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/03/05/20/07/abstract-1238657__480.jpg" alt="Second slide"></a>
+          <div class="carousel-caption d-none d-md-block">
+          <h5 class="trending-name">Mutton</h5>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only"></span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only"></span>
+  </a>
+    </div>
+
+  </div>
+
+<!--  for This menu card i have used card feature of bootstrap and made some neccesarry changes accoring to the size of screen being used to display the website -->
+  <div class="menu" id="menucard">
+    <h2 class="menu-card">
+      What are you looking for?
+    </h2>
+    <div class="row">
+            <div class="col-lg-4 col-sm-6"><a href="https://www.behrouzbiryani.com/">  <div class="card bg-dark text-white" style="width:18rem">
+      <img src="https://media.istockphoto.com/photos/butter-chicken-served-with-homemade-indian-naan-bread-picture-id618457124?k=20&m=618457124&s=612x612&w=0&h=TjiqBwJQqr3xy-_8AGGwmbyOgbDCOEQp0exKK92gSBo=" class="card-img" alt="">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Non-Veg</h5>
+          </div>
+        </div></a>
+
+      </div>
+    <div class="col-lg-4 col-sm-6">
+        <a href="https://www.freshmenu.com/cuisine/continental-food"><div class="card bg-dark text-white" style="width:18rem">
+      <img src="https://media.istockphoto.com/photos/codfish-picture-id538045178?k=20&m=538045178&s=612x612&w=0&h=fa-Kc3sR6lf7npQS881A-SdcRg2nxwCnBV5FH8Gns1M=" class="card-img" alt="">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Continental</h5>
+        </div>
+      </div></a>
+
+    </div>
+    <div class="col-lg-4 col-sm-6">
+        <a href="https://www.freshmenu.com/cuisine/indian-food"><div class="card bg-dark text-white" style="width:18rem">
+      <img src="https://media.istockphoto.com/photos/rajma-chawal-an-indian-food-picture-id1309964339?k=20&m=1309964339&s=612x612&w=0&h=EMicklNWx5lFdcGOClw_ceUkvWoDMQKGUsTsfaDGCMY=" class="card-img" alt="">
+        <div class="card-img-overlay">
+          <h5 class="card-title">North-Indian</h5>
+        </div>
+      </div></a>
+    </div>
+    <div class="col-lg-4 col-sm-6">  <a href="https://www.ubereats.com/near-me/south-indian"><div class="card bg-dark text-white" style="width:18rem">
+         <img src="https://media.istockphoto.com/photos/group-of-south-indian-food-like-masala-dosa-uttapam-idliidly-wadavada-picture-id1024558340?k=20&m=1024558340&s=612x612&w=0&h=30XScxXJ-EPLeNh9orcsKa4En-WZnWdsh9hrFpHVaXQ=" class="card-img" alt="">
+        <div class="card-img-overlay">
+         <h5 id="south" class="card-title">South-Indian</h5>
+        </div>
+      </div></a>
+
+    </div>
+    <div class="col-lg-4 col-sm-6">
+    <a href="https://snackstar.in/collections?gclid=Cj0KCQiA0p2QBhDvARIsAACSOOO28QwyQKr15k7YYsm6_CNMrIX4oEMEr3p4gkLIS_UiSNHpXgQe754aApEYEALw_wcB">  <div class="card bg-dark text-white" style="width:18rem">
+        <img src="https://media.istockphoto.com/photos/group-of-sweet-and-salty-snacks-perfect-for-binge-watching-picture-id1149135424?k=20&m=1149135424&s=612x612&w=0&h=wr-fXgzLCb1r4cXgf9V9IVTHrLCrCMx6l30eJ6C1KgQ=" class="card-img" alt="">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Snacks</h5>
+        </div>
+      </div></a>
+    </div>
+      <div class="col-lg-4 col-sm-6">
+        <a href="https://halfcute.com/desserts">  <div class="card bg-dark text-white dessert" style="width:18rem">
+        <img src="https://media.istockphoto.com/photos/indian-sweets-picture-id523041362?k=20&m=523041362&s=612x612&w=0&h=BWHz79SBzTF2sZMd_tMoSbKvyZfDUEL9CyXhvSlgwbc=" class="card-img" alt="">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Dessert</h5>
+          </div>
+        </div></a>
+      </div>
+
+
+    </div>
+<!-- The last part is completely made my me without copying any bootstrap in it  -->
+<!-- All the icons are anchored to the sites as well as the sponsers are mentioned for just the sake of making it -->
+  </div>
+  <div class="lastpart" id="last-part">
+  <a href="https://www.instagram.com/dmsdivyamanas/"><img class="logo" src="instagram.png" alt=""></a>
+  <a href="https://www.linkedin.com/in/divya-manas-shahi-995a5221a"><img class="logo" src="linkedin.png" alt=""></a>
+  <a href="https://www.google.com/gmail/"><img class="logo" src="gmail.png" alt=""></a>
+    <h3 class="footer">Go Checkout our Social Media handles</h3>
+    <img class="company" src="New Project (1).png" alt="zomato">
+    <img class="company one" src="New Project (2).png" alt="">
+    <img class="company" src="New Project (4).png" alt="">
+    <p class="sponsers">Our Sponsors</p>
+    <p class="foot">©copyright Divya Manas Shahi</p>
+    <p class="foot">This site is made for educational purposes only</p>
+
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+.navbar-brand{
+  font-family: 'Comforter', cursive;
+  font-size: 3vw;
+}
+
+
+
+
+.mb-0{
+  background-color: #fff;
+  display: block;
+  margin-top: 15%;
+  text-align: center;
+  font-family: 'Comforter', cursive;
+  padding-bottom: 0.1%;
+}
+.mb-0{
+  font-size: 8vw;
+}
+.blockquote-footer{
+  margin-bottom: 20%;
+  font-size: 2vw;
+  }
+  /* .navigation{
+  position:absolute;
+  display: block;
+  width: 100%;
+  right:3%;
+  top: 3%;
+  margin-bottom: 10%;
+}
+li{
+  position:static;
+  float: right ;
+  margin: 20px; */
+
+.sectionone{
+  background-color: #000;
+  text-align:  center;
+}
+.god-food{
+  padding: 5rem;
+  text-align: center;
+  background-color:#f3e9d8;
+}
+.subhead{
+  font-size: 8vw;
+  color: #000;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: bolder;
+}
+.trending{
+  background-color:#f3e9d8;
+  color: #000;
+  text-align: center;
+padding-bottom: 20%;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.trending-name{
+  color: #000;
+
+}
+#carouselExampleSlidesOnly{
+  width: 100vw;height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.carousel-item{
+  padding: 7% 20% ;
+}
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.25 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.menu-card{
+text-align: center;
+font-size: 5vw;
+font-family: 'Yanone Kaffeesatz',sans-serif;
+margin-top: 60px;
+margin-bottom: 60px;
+font-weight: bolder;
+}
+.card {
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+}
+.card:hover{
+transform: scale(1.08);
+transition: 0.3s;
+}
+.lastpart{
+  text-align: center;
+  background-color:#f3e9d8;
+  margin-top: 50px;
+}
+.footer{
+  padding-top: 3vw;
+  padding-bottom:2vw;
+
+  font-size: 1rem;
+}
+.sponsers{
+  margin: auto auto 6px auto;
+}
+.foot{
+  margin: 3px;
+  font-size: 0.8rem;
+}
+.logo{
+  padding-top: 3rem;
+  width: 30px; height: auto;
+  margin: 1.5rem;
+}
+.logo:hover{
+  transform: scale(1.6);
+  transition: 0.2s;
+}
+.company{
+  width:100px; height: auto;
+  margin:0 0.1%;
+}
+.one{
+  width: 300px; height: auto;
+}
+.swiggy{
+  width: 70px;height: auto;
+}
+h2{
+  font-size: 4vw;
+  font-weight: bold;
+}
+.carousel-caption{
+  font-weight: bold;
+}
