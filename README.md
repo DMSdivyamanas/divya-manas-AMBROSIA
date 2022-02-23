@@ -3,15 +3,23 @@ https://dmsdivyamanas.github.io/divya-manas-AMBROSIA/
 
 
 # This project is made for DSC club inductions:
+
 **Made by**- Divya Manas Shahi
+
 **Tech stacks used -**
 Atom:For writing all my code
+
 HTML
+
 CSS
+
 BOOTSTRAP
+
 Git hub for deploying my website
+
 **Source of learning :** Angela Yu's Course on Udemy
 My site Includes 3 main pages for this project
+
 
 1.> **Home Page**
 One of the key feature of this home page is that it is responsive on all devices and should work on both tablets annd mobile phones as well
