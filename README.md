@@ -28,6 +28,8 @@ The last section is of description where we can find our social media profiles b
 
   i have used pseudo class on those icons as well where they get enlarge when we hover over them.
   I have also added  a sponsordhip section  and few images  as well.![about us section](https://user-images.githubusercontent.com/98876605/155319288-2a946d17-9b52-4687-9b6d-a62ccadeccb5.jpg)
+  
+  
  Navigation bar is also used (i took a simple format from bootstrap) i have anchored all the things in the navigation bar to a certain location .
  However the search bar is not completely functional as i didnt learnt javascript that well during the given time.
  navigation bar is available and functional on all the three pages .
