@@ -17,7 +17,7 @@ My site Includes 3 main pages for this project
 One of the key feature of this home page is that it is responsive on all devices and should work on both tablets annd mobile phones as well
 The Heading AMBROSIA means food of gods in greek and roman mythology
 The font family used is 'comforter'
-I have also used carosuel for the trending page along with silde buttons 
+I have also used carosuel with buttons and captions below for the trending page along with silde buttons 
 I have also changed the colour of "previous" "next" buttons from their default(white) to black.![trending carousel](https://user-images.githubusercontent.com/98876605/155319309-5d3972e1-ac36-4b38-b287-e158f5c93841.jpg)
 The next thing i added was the menu section in which i used bootstrap card for arranging them in order 
 i also used the row and column features so that i can make my site properly visible on all devices 
