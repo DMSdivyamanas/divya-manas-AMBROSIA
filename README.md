@@ -18,7 +18,9 @@ BOOTSTRAP
 Git hub for deploying my website
 
 **Source of learning :** Angela Yu's Course on Udemy
-My site Includes 3 main pages for this project
+
+
+**My site Includes 3 main pages for this project**
 
 
 1.> **Home Page**
