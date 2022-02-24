@@ -47,7 +47,7 @@ For this page i have used bootstrap cards and edited them according to my needs
 I have also ensured that these cards are responsive on all devices ![gold member](https://user-images.githubusercontent.com/98876605/155319291-31801abc-0739-46ee-984b-f504bbef93c4.jpg)
 
 3.> **Login Page**
-I have changed many css lines and html of the login page , however most o fit is taken form bootsrtap 
-i have also changed the background image  of the login page to make ot relatable to website 
-pass word section has input type of pass word thats why it shows dots when we type something.
+I have changed many css lines and html of the login page , however most of it is taken form bootsrtap 
+i have also changed the background image  of the login page to make it relatable to website .
+password section has input type of password thats why it shows dots when we type something.
 Note the background image might take some time to load ....![login page](https://user-images.githubusercontent.com/98876605/155319296-3167f265-aae1-4794-b043-f62b2f6ff592.jpg)
